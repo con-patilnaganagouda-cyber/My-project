@@ -2,9 +2,9 @@
   "mcpServers": {
     "higgsfield": {
       "command": "python",
-      "args": ["/absolute/path/to/My-project/server.py"],
+      "args": ["/home/user/My-project/server.py"],
       "env": {
-        "HF_API_KEY": "your_api_key_here"
+        "HF_API_KEY": "f582651cea4a42ce79ef38c90201a3e1b76556fec52cbfd40627f14d85b7c3e8"
       }
     }
   }
