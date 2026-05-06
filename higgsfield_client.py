@@ -50,11 +50,13 @@ class HiggsFieldClient:
         negative_prompt: str = "",
         seed: Optional[int] = None,
         enhance_prompt: bool = True,
+        aspect_ratio: str = "1:1",
     ) -> dict:
         payload = {
             "prompt": prompt,
             "model": model,
             "enhance_prompt": enhance_prompt,
+            "aspect_ratio": aspect_ratio,
         }
         if negative_prompt:
             payload["negative_prompt"] = negative_prompt
